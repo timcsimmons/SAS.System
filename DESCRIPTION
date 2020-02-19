@@ -1,0 +1,17 @@
+Package: SAS.System
+Type: Package
+Title: Extract Data from SAS Libraries
+Version: 0.1.0
+Author: Tim Simmons
+Maintainer: Tim Simmons <Timothy.Simmons@hsc.utah.edu>
+Description: This package defines a closure that is initialized from an ODBC
+    connection to SAS. The closure exposes functions for defining SAS libraries
+    and for extracting data sets after applying user-defined formats (provided
+    these are stored in data sets in the libraries that have been declared.)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: haven
+Exports: SAS.System
+NeedsCompilation: no
+Packaged: 2016-12-01 17:59:41 UTC; tsimmons
